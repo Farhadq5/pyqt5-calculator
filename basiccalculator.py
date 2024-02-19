@@ -11,7 +11,7 @@ class Calculator(QWidget):
         self.history = []
 
     def visuals(self):
-        self.setWindowTitle('test calculator')
+        self.setWindowTitle('calculator')
         self.setGeometry(300, 300, 300, 300)
 
         self.one_btn = QPushButton('1')
